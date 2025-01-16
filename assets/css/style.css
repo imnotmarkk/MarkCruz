@@ -44,6 +44,11 @@ body {
     background-image: linear-gradient(rgba(36, 36, 36, 0.788),rgba(3, 3, 3, 0.795)), url("../images/background3.jpg");
     background-size: cover;
     min-height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 .card {
@@ -97,6 +102,47 @@ body {
     footer {
         text-align: center;
     }
+
+    #Contact {
+        display: block;
+    }
+
+    #Contact .image {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    #Contact .contact {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    #Contact h3 {
+        font-size: 1.2rem;
+    }
+
+    #Contact .title-description p {
+        display: block;
+        margin: 10px 0;
+    }
+
+    #Contact .icon {
+        text-align: center;
+    }
+}
+
+@media (max-width: 576px) {
+    #Contact h3 {
+        font-size: 1rem;
+    }
+
+    #Contact .title-description p {
+        font-size: 0.9rem;
+    }
+
+    #Contact .icon h3 {
+        font-size: 1rem;
+    }
 }
 
 .title {
@@ -125,6 +171,7 @@ body {
 
 .contact h3 {
     font-weight: 400;
+    word-spacing: 2px;
 }
 
 .fade-in {
@@ -163,6 +210,7 @@ h3 {
     font-weight: 600;
     margin-bottom: 10px;
     font-family: 'Impact', 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+    word-spacing: 2px;
 }
 
 .map-responsive {
@@ -184,15 +232,18 @@ h3 {
     font-weight: 600;
     font-size: clamp(2.5rem, 5vw, 4.5rem);
     margin-bottom: 20px;
+    line-height: 1.2;
 }
 
 .name h2 {
     font-size: clamp(1.5rem, 3vw, 2.5rem);
     margin-bottom: 20px;
+    line-height: 1.2;
 }
 
 .text-danger {
     font-weight: 800;
+    word-spacing: 2px;
 }
 
 .modal-footer {
@@ -215,11 +266,13 @@ h3 {
     color: #ffffff;
     margin-left: 15px;
     position: relative;
+    word-spacing: 2px;
 }
 
 .navbar-brand {
     font-family: 'Impact', 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
     font-size: 28px;
+    word-spacing: 2px;
 }
 
 .nav-link::before,
@@ -305,10 +358,12 @@ footer h5 {
     font-size: 1rem;
     color: #fff;
     line-height: 1.5;
+    word-spacing: 2px;
 }
 
 footer .navbar-brand {
     font-size: 1.5rem;
+    word-spacing: 2px;
 }
 
 footer a {
@@ -316,6 +371,7 @@ footer a {
     font-size: 1.2rem;
     margin: 0 10px;
     transition: color 0.3s ease;
+    word-spacing: 2px;
 }
 
 footer a:hover {
@@ -368,10 +424,12 @@ form button {
 @media (max-width: 576px) {
     .name h1 {
         font-size: 3rem;
+        line-height: 1.2;
     }
 
     .name h2 {
         font-size: 2rem;
+        line-height: 1.2;
     }
 
     .contact-title {
