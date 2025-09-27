@@ -254,7 +254,7 @@ h3 {
     position: sticky;
     top: 0;
     backdrop-filter: blur(55px);
-    z-index: 100;
+    z-index: 100;   
 }
 
 .navbar li a,
